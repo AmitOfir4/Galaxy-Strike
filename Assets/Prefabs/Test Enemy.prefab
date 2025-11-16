@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7708d606d16e7df4bb5fc68fc20ea46a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.925995
+      value: -69.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7708d606d16e7df4bb5fc68fc20ea46a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3bd2e5395024409b4088c1a2e73200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  destroyedVFX: {fileID: 268981152103832123, guid: bcd0d9381e97840949eb7933b69369d2, type: 3}
+  destroyedVFX: {fileID: 7415166816682411354, guid: 38b3b1f8ad4da4a81b5aa7dffd92f9a9, type: 3}
 --- !u!65 &5368546391177139906
 BoxCollider:
   m_ObjectHideFlags: 0

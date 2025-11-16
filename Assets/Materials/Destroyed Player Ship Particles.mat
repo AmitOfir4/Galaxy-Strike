@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Destroyed Ship Particles
+  m_Name: Destroyed Player Ship Particles
   m_Shader: {fileID: 4800000, guid: b7839dad95683814aa64166edc107ae2, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -133,11 +133,11 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9245283, g: 0.46043158, b: 0, a: 1}
+    - _BaseColor: {r: 0.12097756, g: 0.9254902, b: 0, a: 1}
     - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.9245283, g: 0.46043152, b: 0, a: 1}
-    - _EmissionColor: {r: 10.076064, g: 2.8191686, b: 0, a: 1}
+    - _Color: {r: 0.12097751, g: 0.9254902, b: 0, a: 1}
+    - _EmissionColor: {r: 5.0838504, g: 10.076064, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
