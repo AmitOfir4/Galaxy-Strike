@@ -612,7 +612,7 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -6698336451937864676, guid: aca79ceda09e84e9f93ab28fff042d65, type: 2}
+  - key: {fileID: -1239305045265933151, guid: aca79ceda09e84e9f93ab28fff042d65, type: 2}
     value: {fileID: 1789285493}
   m_ExposedReferences:
     m_References: []
@@ -1062,11 +1062,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 301803073966803420, guid: 51e2d606eb2f3463f9adf75ecd37e2f0, type: 3}
       propertyPath: xClampRange
-      value: 26
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 301803073966803420, guid: 51e2d606eb2f3463f9adf75ecd37e2f0, type: 3}
       propertyPath: yClampRange
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 615638451198747924, guid: 51e2d606eb2f3463f9adf75ecd37e2f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1198,11 +1198,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7767902376707694331, guid: 51e2d606eb2f3463f9adf75ecd37e2f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.05
+      value: 11.4
       objectReference: {fileID: 0}
     - target: {fileID: 7767902376707694331, guid: 51e2d606eb2f3463f9adf75ecd37e2f0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -27.95
+      value: -18.26
       objectReference: {fileID: 0}
     - target: {fileID: 7767902376707694331, guid: 51e2d606eb2f3463f9adf75ecd37e2f0, type: 3}
       propertyPath: m_LocalRotation.w
