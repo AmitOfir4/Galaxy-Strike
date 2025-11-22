@@ -110,6 +110,14 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 1.0583329
       objectReference: {fileID: 0}
+    - target: {fileID: 8573239756152246648, guid: d9ac6c9763c264bf1b90325c243efb96, type: 3}
+      propertyPath: hitPoints
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8573239756152246648, guid: d9ac6c9763c264bf1b90325c243efb96, type: 3}
+      propertyPath: scoreValue
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8759385981397523202, guid: d9ac6c9763c264bf1b90325c243efb96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 431.84
