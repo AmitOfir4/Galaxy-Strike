@@ -215,6 +215,7 @@ RectTransform:
   m_Children:
   - {fileID: 1433825828}
   - {fileID: 1361591164}
+  - {fileID: 329097997}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -250,14 +251,14 @@ RectTransform:
   m_GameObject: {fileID: 329097996}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6527344, y: 0.6527344, z: 0.6527344}
+  m_LocalScale: {x: 1.2250735, y: 1.2250735, z: 1.2250735}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1189244100}
+  m_Father: {fileID: 155882850}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -875.9111, y: 771.7703}
+  m_AnchoredPosition: {x: 47, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &329097998
@@ -1094,7 +1095,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2036990085}
-  - {fileID: 329097997}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1264062172
@@ -1132,20 +1132,22 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -1239305045265933151, guid: aca79ceda09e84e9f93ab28fff042d65, type: 2}
     value: {fileID: 1789285493}
-  - key: {fileID: -1392577804428069508, guid: aca79ceda09e84e9f93ab28fff042d65, type: 2}
+  - key: {fileID: -279988237977053201, guid: aca79ceda09e84e9f93ab28fff042d65, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -7476594749540426515, guid: aca79ceda09e84e9f93ab28fff042d65, type: 2}
     value: {fileID: 1264062175}
   m_ExposedReferences:
     m_References:
-    - e1a34f28633764daca19f713bae407d6: {fileID: 2036990082}
+    - e1a34f28633764daca19f713bae407d6: {fileID: 1361591163}
     - ffae7bd74644844f19588d4e88633210: {fileID: 2036990082}
-    - 6d452d23796b1430dbbe9fcf4296d378: {fileID: 2036990082}
-    - 06da6237679a442f0bfe526685900120: {fileID: 2036990082}
-    - 81b6df4f361dc470184ee6c14330f320: {fileID: 2036990082}
-    - 2c10cf81cf33c442388a0bb184290870: {fileID: 2036990082}
-    - 595410f4e5406435f9295ec82bb6b649: {fileID: 2036990082}
+    - 6d452d23796b1430dbbe9fcf4296d378: {fileID: 1361591163}
+    - 06da6237679a442f0bfe526685900120: {fileID: 1361591163}
+    - 81b6df4f361dc470184ee6c14330f320: {fileID: 1361591163}
+    - 2c10cf81cf33c442388a0bb184290870: {fileID: 1361591163}
+    - 595410f4e5406435f9295ec82bb6b649: {fileID: 1361591163}
     - c64470a07193e41ba86dca57f25eb922: {fileID: 330971880}
     - ff47a6d0024c240eb86caaad515f33b2: {fileID: 2102977128}
-    - 7c99c2e212a8c4a589392daaf8232b57: {fileID: 2036990082}
+    - 7c99c2e212a8c4a589392daaf8232b57: {fileID: 1361591163}
     - eca66983b2a014e2ea24251647dc2b31: {fileID: 2036990082}
     - 507e3f729b1914a63ac56a0e134a88e0: {fileID: 488768589}
     - ad02c8f3ecd72433a8a4b1456bd3f2c6: {fileID: 2036990082}
@@ -1178,7 +1180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
   m_Events:
     m_Signals:
-    - {fileID: 11400000, guid: 98c984e055c22446f9f5a0cb8ca3db98, type: 2}
+    - {fileID: 11400000, guid: 833ccb00f098543e3b98221b1076a9fb, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -1514,7 +1516,7 @@ GameObject:
   - component: {fileID: 2036990085}
   - component: {fileID: 2036990084}
   - component: {fileID: 2036990088}
-  - component: {fileID: 2036990087}
+  - component: {fileID: 2036990089}
   m_Layer: 5
   m_Name: Dialog
   m_TagString: Untagged
@@ -1549,36 +1551,6 @@ RectTransform:
   m_AnchoredPosition: {x: -55.22809, y: -137.41411}
   m_SizeDelta: {x: 2560, y: 50}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &2036990087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036990082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: 98c984e055c22446f9f5a0cb8ca3db98, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2036990088}
-          m_TargetAssemblyTypeName: DialogLines, Assembly-CSharp
-          m_MethodName: NextDialogLines
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!114 &2036990088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1601,6 +1573,21 @@ MonoBehaviour:
   - Struth! Looks like the galaxy just got a little more safe.
   - Yeeeehaw!! You did it!
   dialogText: {fileID: 1361591165}
+--- !u!114 &2036990089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036990082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!1 &2075381083
 GameObject:
   m_ObjectHideFlags: 0
